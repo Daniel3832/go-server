@@ -9,8 +9,7 @@ import (
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Welcome to split files!")
-	fmt.Println("Index page!")
+	fmt.Fprintln(w, "Welcome to go server!")
 }
 
 func TodoIndex(w http.ResponseWriter, r *http.Request) {
